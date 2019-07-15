@@ -1,7 +1,12 @@
 <template>
   <div id="app">
-    <!--<img src="./assets/logo.png">-->
-    <router-view/>
+    <div class="header">
+      <div class="headerItem"><router-link to="/index">首页</router-link></div>
+      <div class="headerItem"><router-link to="/">我的家</router-link></div>
+    </div>
+    <div class="content">
+      <router-view/>
+    </div>
   </div>
 </template>
 
@@ -18,6 +23,23 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  height: 100%;
+  width:100%;
+
 }
+  .header{
+    height:10%;
+    line-height: 60px;
+    width:100%;
+    justify-content: left;
+    display: flex;
+    background: #44A9F9;
+  }
+  .headerItem{
+    width: 10%;
+  }
+  .content{
+    height:90%
+
+  }
 </style>

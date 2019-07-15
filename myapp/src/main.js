@@ -3,6 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+/*引入资源请求插件*/
+import VueResource from 'vue-resource'
+/*使用VueResource插件*/
+Vue.use(VueResource)
 
 Vue.config.productionTip = false
 
