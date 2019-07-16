@@ -11,30 +11,31 @@
 </template>
 
 <script>
-   import  Acom from "../../components/a"
-   import  Bcom from "../../components/b"
+   import  Ccom from "../../components/c"
+   import  Dcom from "../../components/d"
+   import Vue from "vue"
 
    export default {
       components: {
-      Acom,
-      Bcom
+      Ccom,
+      Dcom
    },
         name: "index",
        data(){
            return{
               show:true,
-              Comment:"Acom"
+              Comment:"ccom"
            }
        },
        created(){
-           console.log(this.show)
+           console.log(this)
        },
        methods:{
           onClick(){
-             if(this.Comment==="Acom"){
-                this.Comment="Bcom"
+             if(this.Comment==="Ccom"){
+                this.Comment="Dcom"
              }else{
-                this.Comment="Acom"
+                this.Comment="Ccom"
              }
           }
        }
