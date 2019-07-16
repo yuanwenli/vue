@@ -5,7 +5,7 @@
 ## Build Setup
 
 ``` bash
-合并分支第755555次
+合并分支第8次
 # install dependencies
 npm install
 
