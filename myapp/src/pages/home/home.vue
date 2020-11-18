@@ -8,7 +8,7 @@
             </div>
             <div class="menuItem">
                 <router-link to="/home/b">
-                    <span class="menuName">sdvfsdgsfsdfsd
+                    <span class="menuName">发挥好或或或或或
                     </span>
                 </router-link>
             </div>
