@@ -8,7 +8,7 @@
             </div>
             <div class="menuItem">
                 <router-link to="/home/b">
-                    <span class="menuName">菜单2
+                    <span class="menuName">菜单25555555
                     </span>
                 </router-link>
             </div>
